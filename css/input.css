@@ -1,0 +1,118 @@
+.acf-google-map-extended {
+  position: relative;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+}
+.acf-google-map-extended header {
+  position: relative;
+  padding: 5px 10px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.acf-google-map-extended footer {
+  position: relative;
+  padding: 0;
+  border-top: 1px solid #dfdfdf;
+}
+.acf-gme-options {
+  padding: 10px 12px;
+  border-top: 1px solid #dfdfdf;
+  background: #f9f9f9;
+}
+.acf-gme-icon {
+  position: relative;
+  display: block;
+  width: 26px;
+  height: 26px;
+  padding: 1px;
+  background: #f5f5f5;
+  border: 0 none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  color: #999;
+  font-size: 13px;
+  line-height: 25px;
+  text-decoration: none;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out 0s, visibility 0s linear 0.25s;
+  visibility: hidden;  
+}
+.acf-gme-icon .dashicons {
+  display: inline;
+  font-size: 20px;
+  line-height: 26px;
+}
+.acf-gme-icon .dashicons-location {
+  line-height: 28px;
+}
+.acf-gme-icon:hover {
+  background: #ebebeb;
+}
+.acf-gme-icon:hover .dashicons-no-alt {
+  color: #E10F17;
+}
+.acf-gme-icon:hover .dashicons-location {
+  color: #277BAD;
+}
+.acf-google-map-extended header .acf-gme-icon {
+  position: absolute;
+  right: 7px;
+  top: 6px;
+}
+.acf-google-map-extended.has-value header:hover .acf-gme-clear-location {
+  opacity: 1;
+  transition-delay: 0s;
+  visibility: visible;
+}
+.acf-google-map-extended.no-value header:hover .acf-gme-find-location {
+  opacity: 1;
+  transition-delay: 0s;
+  visibility: visible;
+}
+.acf-google-map-extended input.search {
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 30px;
+  cursor: text;
+}
+
+.acf-google-map-extended input.search:focus,
+.acf-google-map-extended.no-value input.search {
+  font-weight: normal;
+}
+.js .postbox .acf-google-map-extended footer.closed .handlediv:before {
+  content: "\f140";
+}
+.acf-google-map-extended footer.closed .acf-gme-options {
+  display: none;
+}
+.acf-gme-options > div {
+  padding: 5px 0;
+  line-height: 2.1em;
+}
+.acf-gme-options > div em {
+  margin: 0 20px;
+}
+@media (max-width: 767px) {
+  .acf-gme-options > div label,
+  .acf-gme-options > div em {
+    display: block;
+    margin: 0;
+  }
+}
+/* Google Autocomplete */
+.pac-container {}
+.pac-container::after {
+  display: none;
+}
+.pac-item {}
+.pac-item .pac-icon {
+  display: none;
+}
