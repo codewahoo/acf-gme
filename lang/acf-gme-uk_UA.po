@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advanced Custom Fields: Google Map Extended\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2015-11-10 18:04+0400\n"
+"POT-Creation-Date: 2015-12-18 23:59+0400\n"
 "PO-Revision-Date: \n"
 "Last-Translator: CodeFish <codewahoo@gmail.com>\n"
 "Language-Team: CodeFish <codewahoo@gmail.com>\n"
@@ -10,12 +10,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
-"1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;"
-"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
 "_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 1.8.6\n"
@@ -46,117 +47,126 @@ msgid "Google geocoder found no results"
 msgstr "Google геокодер не знайшов жодних результатів"
 
 #: acf-google-map-extended-base.php:36
-msgid "Init failed to avoid conflict with another google library already loaded"
+msgid ""
+"Init failed to avoid conflict with another google library already loaded"
 msgstr ""
-"Ініціалізація була перервана для запобігання конфлікту з іншою бібліотекою Гугл, яка вже була завантажена"
+"Ініціалізація була перервана для запобігання конфлікту з іншою бібліотекою "
+"Гугл, яка вже була завантажена"
 
-#: acf-google-map-extended-base.php:37 acf-google-map-extended-v4.php:118 acf-google-map-extended-v5.php:109
+#: acf-google-map-extended-base.php:37 acf-google-map-extended-v4.php:119
+#: acf-google-map-extended-v5.php:109
 msgid "none"
 msgstr "немає даних"
 
-#: acf-google-map-extended-v4.php:103 acf-google-map-extended-v5.php:94
+#: acf-google-map-extended-v4.php:104 acf-google-map-extended-v5.php:94
 msgid "Search for address..."
 msgstr "Введіть адресу..."
 
-#: acf-google-map-extended-v4.php:104 acf-google-map-extended-v5.php:95
+#: acf-google-map-extended-v4.php:105 acf-google-map-extended-v5.php:95
 msgid "Clear location"
 msgstr "Очистити місцезнаходження"
 
-#: acf-google-map-extended-v4.php:107 acf-google-map-extended-v5.php:98
+#: acf-google-map-extended-v4.php:108 acf-google-map-extended-v5.php:98
 msgid "Find current location"
 msgstr "Знайти поточне місцезнаходження"
 
-#: acf-google-map-extended-v4.php:114 acf-google-map-extended-v5.php:105
+#: acf-google-map-extended-v4.php:114 acf-google-map-extended-v5.php:104
+msgid "Click to toggle"
+msgstr "Натисніть для відображення/приховання"
+
+#: acf-google-map-extended-v4.php:115 acf-google-map-extended-v5.php:105
 msgid "Map data"
 msgstr "Дані карти"
 
-#: acf-google-map-extended-v4.php:116 acf-google-map-extended-v5.php:107
+#: acf-google-map-extended-v4.php:117 acf-google-map-extended-v5.php:107
 msgid "Map zooming level"
 msgstr "Масштаб карти"
 
-#: acf-google-map-extended-v4.php:116 acf-google-map-extended-v4.php:117 acf-google-map-extended-v5.php:107
-#: acf-google-map-extended-v5.php:108
+#: acf-google-map-extended-v4.php:117 acf-google-map-extended-v4.php:118
+#: acf-google-map-extended-v5.php:107 acf-google-map-extended-v5.php:108
 msgid "default"
 msgstr "за замовчуванням"
 
-#: acf-google-map-extended-v4.php:116 acf-google-map-extended-v5.php:107
+#: acf-google-map-extended-v4.php:117 acf-google-map-extended-v5.php:107
 msgid "Click to update with the map's zooming level"
 msgstr "Натисніть для оновлення значення масштабу карти"
 
-#: acf-google-map-extended-v4.php:116 acf-google-map-extended-v4.php:117 acf-google-map-extended-v5.php:107
-#: acf-google-map-extended-v5.php:108
+#: acf-google-map-extended-v4.php:117 acf-google-map-extended-v4.php:118
+#: acf-google-map-extended-v5.php:107 acf-google-map-extended-v5.php:108
 msgid "Update"
 msgstr "Обновити"
 
-#: acf-google-map-extended-v4.php:117 acf-google-map-extended-v5.php:108
+#: acf-google-map-extended-v4.php:118 acf-google-map-extended-v5.php:108
 msgid "Map center coords"
 msgstr "Координати центру карти"
 
-#: acf-google-map-extended-v4.php:117 acf-google-map-extended-v5.php:108
+#: acf-google-map-extended-v4.php:118 acf-google-map-extended-v5.php:108
 msgid "Click to update with the map's center coordinates"
 msgstr "Натисніть для оновлення поточними координатами центру карти"
 
-#: acf-google-map-extended-v4.php:118 acf-google-map-extended-v5.php:109
+#: acf-google-map-extended-v4.php:119 acf-google-map-extended-v5.php:109
 msgid "Map marker coords"
 msgstr "Координати вибраного місцезнаходження на карті"
 
-#: acf-google-map-extended-v4.php:118 acf-google-map-extended-v5.php:109
+#: acf-google-map-extended-v4.php:119 acf-google-map-extended-v5.php:109
 msgid "Click to delete the current marker"
 msgstr "Натисніть для очищення поточного місцезнаходження на карті"
 
-#: acf-google-map-extended-v4.php:118 acf-google-map-extended-v5.php:109
+#: acf-google-map-extended-v4.php:119 acf-google-map-extended-v5.php:109
 msgid "Clear"
 msgstr "Очистити"
 
-#: acf-google-map-extended-v4.php:119 acf-google-map-extended-v5.php:110
+#: acf-google-map-extended-v4.php:120 acf-google-map-extended-v5.php:110
 #, php-format
 msgid "coordinates are presented in the %s format"
 msgstr "координати представлені у форматі %s"
 
-#: acf-google-map-extended-v4.php:119 acf-google-map-extended-v5.php:110
+#: acf-google-map-extended-v4.php:120 acf-google-map-extended-v5.php:110
 msgid "latitude"
 msgstr "широта"
 
-#: acf-google-map-extended-v4.php:119 acf-google-map-extended-v5.php:110
+#: acf-google-map-extended-v4.php:120 acf-google-map-extended-v5.php:110
 msgid "longitude"
 msgstr "довгота"
 
-#: acf-google-map-extended-v4.php:151 acf-google-map-extended-v5.php:133
+#: acf-google-map-extended-v4.php:152 acf-google-map-extended-v5.php:133
 msgid "Scrollwheel support"
 msgstr "Колесо миші"
 
-#: acf-google-map-extended-v4.php:152 acf-google-map-extended-v5.php:134
+#: acf-google-map-extended-v4.php:153 acf-google-map-extended-v5.php:134
 msgid "Enables scrollwheel for map zooming"
 msgstr "Управління масштабом карти за допомогою колеса миші"
 
-#: acf-google-map-extended-v4.php:163 acf-google-map-extended-v5.php:139
+#: acf-google-map-extended-v4.php:164 acf-google-map-extended-v5.php:139
 msgid "Yes"
 msgstr "Так"
 
-#: acf-google-map-extended-v4.php:164 acf-google-map-extended-v5.php:140
+#: acf-google-map-extended-v4.php:165 acf-google-map-extended-v5.php:140
 msgid "No"
 msgstr "Ні"
 
-#: acf-google-map-extended-v4.php:172 acf-google-map-extended-v5.php:147 acf-google-map-extended-v5.php:158
+#: acf-google-map-extended-v4.php:173 acf-google-map-extended-v5.php:147
+#: acf-google-map-extended-v5.php:158
 msgid "Center"
 msgstr "Центр"
 
-#: acf-google-map-extended-v4.php:173 acf-google-map-extended-v5.php:148 acf-google-map-extended-v5.php:159
+#: acf-google-map-extended-v4.php:174 acf-google-map-extended-v5.php:148
+#: acf-google-map-extended-v5.php:159
 msgid "Center the initial map"
 msgstr "Центр карти за замовчуванням"
 
-#: acf-google-map-extended-v4.php:208 acf-google-map-extended-v5.php:172
+#: acf-google-map-extended-v4.php:209 acf-google-map-extended-v5.php:172
 msgid "Zoom"
 msgstr "Масштаб"
 
-#: acf-google-map-extended-v4.php:209 acf-google-map-extended-v5.php:173
+#: acf-google-map-extended-v4.php:210 acf-google-map-extended-v5.php:173
 msgid "Set the initial zoom level"
 msgstr "Масштаб карти за замовчуванням"
 
-#: acf-google-map-extended-v4.php:228 acf-google-map-extended-v5.php:185
+#: acf-google-map-extended-v4.php:229 acf-google-map-extended-v5.php:185
 msgid "Height"
 msgstr "Висота"
 
-#: acf-google-map-extended-v4.php:229 acf-google-map-extended-v5.php:186
+#: acf-google-map-extended-v4.php:230 acf-google-map-extended-v5.php:186
 msgid "Customise the map height"
 msgstr "Зміна висоти контейнеру з картою"

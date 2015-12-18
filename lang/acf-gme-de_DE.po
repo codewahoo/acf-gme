@@ -2,23 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advanced Custom Fields: Google Map Extended\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2015-12-19 00:01+0400\n"
+"POT-Creation-Date: 2015-12-19 00:24+0400\n"
 "PO-Revision-Date: \n"
-"Last-Translator: CodeFish <codewahoo@gmail.com>\n"
 "Language-Team: CodeFish <codewahoo@gmail.com>\n"
-"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
-"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 1.8.6\n"
+"Last-Translator: CodeFish <codewahoo@gmail.com>\n"
+"Language: de_DE\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: acf-google-map-extended.php\n"
 "X-Poedit-SearchPath-2: acf-google-map-extended-base.php\n"
@@ -27,145 +24,142 @@ msgstr ""
 
 #: acf-google-map-extended-base.php:20
 msgid "Google Map Extended"
-msgstr "Google Карта улучшенная"
+msgstr "Google Maps Verlängert"
 
 #: acf-google-map-extended-base.php:32
 msgid "Locating"
-msgstr "Идет обнаружение местоположения"
+msgstr "Lokalisiere"
 
 #: acf-google-map-extended-base.php:33
 msgid "Sorry, this browser does not support geolocation"
-msgstr "Извините, но данный браузер не поддерживает определение местоположения"
+msgstr "Dieser Browser unterstützt keine Geo-Lokation"
 
 #: acf-google-map-extended-base.php:34
 msgid "Google geocoder failed"
-msgstr "Не удалось инициализировать Google геокодер"
+msgstr "Google Geocoder gescheitert"
 
 #: acf-google-map-extended-base.php:35
 msgid "Google geocoder found no results"
-msgstr "Google геокодер не нашел никаких результатов"
+msgstr "Google Geocoder hat noch keine Suchergebnisse"
 
 #: acf-google-map-extended-base.php:36
-msgid ""
-"Init failed to avoid conflict with another google library already loaded"
-msgstr ""
-"Инициализация была прервана во избежание конфликта с другой библиотекой "
-"Гугл, которая уже была загружена"
+msgid "Init failed to avoid conflict with another google library already loaded"
+msgstr "Init konnte Konflikt mit einem anderen Google-Bibliothek bereits geladen vermeiden"
 
 #: acf-google-map-extended-base.php:37 acf-google-map-extended-v4.php:119
 #: acf-google-map-extended-v5.php:109
 msgid "none"
-msgstr "нет данных"
+msgstr "keine"
 
 #: acf-google-map-extended-v4.php:104 acf-google-map-extended-v5.php:94
 msgid "Search for address..."
-msgstr "Введите адрес..."
+msgstr "Nach der Adresse suchen..."
 
 #: acf-google-map-extended-v4.php:105 acf-google-map-extended-v5.php:95
 msgid "Clear location"
-msgstr "Удалить местоположение"
+msgstr "Position löschen"
 
 #: acf-google-map-extended-v4.php:108 acf-google-map-extended-v5.php:98
 msgid "Find current location"
-msgstr "Найти текущее местоположение"
+msgstr "Aktuelle Position finden"
 
 #: acf-google-map-extended-v4.php:114 acf-google-map-extended-v5.php:104
 msgid "Click to toggle"
-msgstr "Нажмите для показа/скрытия"
+msgstr "Klicken Sie zum Umschalten"
 
 #: acf-google-map-extended-v4.php:115 acf-google-map-extended-v5.php:105
 msgid "Map data"
-msgstr "Данные карты"
+msgstr "Kartendaten"
 
 #: acf-google-map-extended-v4.php:117 acf-google-map-extended-v5.php:107
 msgid "Map zooming level"
-msgstr "Масштаб карты"
+msgstr "Karte Zoomstufe"
 
 #: acf-google-map-extended-v4.php:117 acf-google-map-extended-v4.php:118
 #: acf-google-map-extended-v5.php:107 acf-google-map-extended-v5.php:108
 msgid "default"
-msgstr "по-умолчанию"
+msgstr "standard"
 
 #: acf-google-map-extended-v4.php:117 acf-google-map-extended-v5.php:107
 msgid "Click to update with the map's zooming level"
-msgstr "Нажмите для обновления масштаба карты"
+msgstr "Klicken Sie hier um mit Zoom-Ebene der Map aktualisieren"
 
 #: acf-google-map-extended-v4.php:117 acf-google-map-extended-v4.php:118
 #: acf-google-map-extended-v5.php:107 acf-google-map-extended-v5.php:108
 msgid "Update"
-msgstr "Обновить"
+msgstr "Aktualisieren"
 
 #: acf-google-map-extended-v4.php:118 acf-google-map-extended-v5.php:108
 msgid "Map center coords"
-msgstr "Координаты центра карты"
+msgstr "Karte Mittelpunktskoordinaten"
 
 #: acf-google-map-extended-v4.php:118 acf-google-map-extended-v5.php:108
 msgid "Click to update with the map's center coordinates"
-msgstr "Нажмите для обновления текущими координатами центра карты"
+msgstr "Klicken Sie hier um mit Mittelpunktskoordinaten der Map aktualisieren"
 
 #: acf-google-map-extended-v4.php:119 acf-google-map-extended-v5.php:109
 msgid "Map marker coords"
-msgstr "Координаты выбранного местоположения на карте"
+msgstr "Karte Positionskoordinaten"
 
 #: acf-google-map-extended-v4.php:119 acf-google-map-extended-v5.php:109
 msgid "Click to delete the current marker"
-msgstr "Нажмите для удаления текущего местоположения на карте"
+msgstr "Klicken Sie hier um die aktuelle Position zu löschen"
 
 #: acf-google-map-extended-v4.php:119 acf-google-map-extended-v5.php:109
 msgid "Clear"
-msgstr "Удалить"
+msgstr "Löschen"
 
 #: acf-google-map-extended-v4.php:120 acf-google-map-extended-v5.php:110
 #, php-format
 msgid "coordinates are presented in the %s format"
-msgstr "координаты представлены в формате %s"
+msgstr "Koordinaten werden in der %s-Format präsentiert"
 
 #: acf-google-map-extended-v4.php:120 acf-google-map-extended-v5.php:110
 msgid "latitude"
-msgstr "широта"
+msgstr "breite"
 
 #: acf-google-map-extended-v4.php:120 acf-google-map-extended-v5.php:110
 msgid "longitude"
-msgstr "долгота"
+msgstr "länge"
 
 #: acf-google-map-extended-v4.php:152 acf-google-map-extended-v5.php:133
 msgid "Scrollwheel support"
-msgstr "Колесо прокрутки мыши"
+msgstr "Mausrad-Unterstützung"
 
 #: acf-google-map-extended-v4.php:153 acf-google-map-extended-v5.php:134
 msgid "Enables scrollwheel for map zooming"
-msgstr "Управление масштабом карты с помощью колеса мыши"
+msgstr "Ermöglicht Scrollrad zum Zoom-Karte"
 
 #: acf-google-map-extended-v4.php:164 acf-google-map-extended-v5.php:139
 msgid "Yes"
-msgstr "Да"
+msgstr "Ja"
 
 #: acf-google-map-extended-v4.php:165 acf-google-map-extended-v5.php:140
 msgid "No"
-msgstr "Нет"
+msgstr "Nein"
 
 #: acf-google-map-extended-v4.php:173 acf-google-map-extended-v5.php:147
 #: acf-google-map-extended-v5.php:158
 msgid "Center"
-msgstr "Центр"
+msgstr "Kartenmittelpunkt"
 
 #: acf-google-map-extended-v4.php:174 acf-google-map-extended-v5.php:148
 #: acf-google-map-extended-v5.php:159
 msgid "Center the initial map"
-msgstr "Центр карты по-умолчанию"
+msgstr "Der Mittelpunkt der Ausgangskarte"
 
 #: acf-google-map-extended-v4.php:209 acf-google-map-extended-v5.php:172
 msgid "Zoom"
-msgstr "Масштаб"
+msgstr "Zoom"
 
 #: acf-google-map-extended-v4.php:210 acf-google-map-extended-v5.php:173
 msgid "Set the initial zoom level"
-msgstr "Масштаб карты по-умолчанию"
+msgstr "Legt die Zoomstufe der Karte fest"
 
 #: acf-google-map-extended-v4.php:229 acf-google-map-extended-v5.php:185
 msgid "Height"
-msgstr "Высота"
+msgstr "Höhe"
 
 #: acf-google-map-extended-v4.php:230 acf-google-map-extended-v5.php:186
 msgid "Customise the map height"
-msgstr "Изменение высоты контейнера с картой"
+msgstr "Legt die Höhe der Karte fest"

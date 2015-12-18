@@ -251,7 +251,8 @@ var acf_gme_geocoder = null; //common for all instances
     locate : function () {
       // reference
       var self = this,
-          $el = this.$el;
+          $el = this.$el,
+          latlng = null;
       
       // Try HTML5 geolocation
       if( ! navigator.geolocation ) {
@@ -261,12 +262,27 @@ var acf_gme_geocoder = null; //common for all instances
       
       $el.find('.search').val(acf.l10n.google_map.locating + '...');
       
+      //Clear search bar in case user doesn't grant permissions to identify Geolocation
+      setTimeout(function(){
+        if(!latlng) {
+          $el.find('.search').val('');
+        }
+      },5500);
+      
       navigator.geolocation.getCurrentPosition(function(position){
-
-        var latlng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+      
+        latlng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
         self.markerPosition( latlng ).setCenter( latlng ).markerReverseGeocode();
-        
-      });      
+
+      },function(pError) {
+        //console.log(pError.message);
+        $el.find('.search').val('');
+      },{
+        enableHighAccuracy: false,
+        timeout: 5000,
+        maximumAge: 0
+      });
+      
     },
 
     /**

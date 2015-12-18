@@ -111,7 +111,7 @@ class acf_field_google_map_extended_v4 extends acf_field_google_map_extended {
   </header>
   <div class="canvas" style="height: <?php echo $field['height']; ?>px"></div>
   <footer class="closed">
-    <div title="Click to toggle" class="handlediv"><br></div>  
+    <div title="<?php _e("Click to toggle", 'acf-gme'); ?>" class="handlediv"><br></div>  
     <h3><?php _e("Map data", 'acf-gme'); ?></h3>
     <section class="acf-gme-options">
       <div><label><?php _e("Map zooming level",'acf-gme'); ?>:</label><em class="acf-gme-zooming-level"><?php echo empty($field['value']['zoom']) ? __("default",'acf-gme') : $field['value']['zoom']; ?></em><button class="button acf-gme-btn-mz" title="<?php esc_attr_e("Click to update with the map's zooming level",'acf-gme'); ?>"><?php _e("Update",'acf-gme'); ?></button></div>
