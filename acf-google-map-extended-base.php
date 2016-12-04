@@ -45,9 +45,12 @@ class acf_field_google_map_extended extends acf_field {
       'url' => plugins_url('',__FILE__),
       'version' => acf_field_google_map_extended_plugin::version,
       'script-handle' => 'acf-input-google-map-extended',
-      'acf-script-handle' => 'acf-input'
+      'acf-script-handle' => 'acf-input',
+      'key' => '',
     );
-    
+
+    // Applying the Google Maps key
+    $this->settings['key'] = apply_filters( 'acf/fields/google_map_extended/api', $this->settings['key'] );
   }
 }
 ?>
