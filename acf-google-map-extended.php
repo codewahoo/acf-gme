@@ -14,7 +14,7 @@ Domain Path: /lang
 
 class acf_field_google_map_extended_plugin {
   
-  const version = '1.0.1';
+  const version = '1.0.2';
 
   function __construct() {
     add_action('plugins_loaded', array($this, 'plugins_loaded') );
