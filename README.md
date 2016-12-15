@@ -12,6 +12,15 @@ extending the functionality of the built-in Google Map field with several handy 
 The plugin makes use of the Google Maps API version 3.<br>
 As the API key is now required, a new filter `acf/fields/google_map_extended/api` was configured to allow the user to add the key.
 
+Add this action in your **functions.php**:
+
+```
+add_action( 'acf/fields/google_map_extended/api', function( $key ) {
+	$key = 'YOUR_KEY';
+	return $key;
+} );
+```
+
 ## Usage
 
 Please see the [F.A.Q.](https://wordpress.org/plugins/advanced-custom-fields-google-map-extended/faq/) at WordPress.org
