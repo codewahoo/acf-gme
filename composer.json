@@ -1,0 +1,8 @@
+{
+  "name": "juniorgarcia/acf-gme",
+  "type": "wordpress-plugin",
+  "description": "A extended version of ACF Google Maps plugin with some more functionality.",
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}
