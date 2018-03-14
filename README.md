@@ -9,9 +9,17 @@ extending the functionality of the built-in Google Map field with several handy 
 * Compatible with the ACF built-in Google Map field.
 * Saves all maps shown at a page in the global array. This is a bonus for programmers.
 
-The plugin makes use of the Google Maps API version 3.
-The plugin doesn't use an API key and is therefore operating under the [restrictions of the free Google Maps API](https://developers.google.com/maps/faq#usage_pricing),
-which should be more than enough for most websites.
+The plugin makes use of the Google Maps API version 3.<br>
+As the API key is now required, a new filter `acf/fields/google_map_extended/api` was configured to allow the user to add the key.
+
+Add this action in your **functions.php**:
+
+```
+add_action( 'acf/fields/google_map_extended/api', function( $key ) {
+	$key = 'YOUR_KEY';
+	return $key;
+} );
+```
 
 ## Usage
 
